@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Assignment</title>
+</head>
+<body>
+    <h1>Registration Form : Dance Club</h1><hr>
+    <form>
+        <table border="1">
+            <tr>
+                <td><label for="name"><b>Name :</b></label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="icno"><b>IC No :</b></label></td>
+                <td><input type="text" id="icno" name="icno" size="10"> -
+                    <input type="text" id="icno" name="icno" size="7"> -
+                    <input type="text" id="icno" name="icno" size="10">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="address"><b>Address :</b></label></td>
+                <td><textarea name="text" id="address" cols="40" rows="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="gender"><b>Gender :</b></label></td>
+                <td><input type="radio">Male &nbsp;&nbsp;<input type="radio">Female</td>
+            </tr>
+
+            <tr>
+                <td><label for="danceType"><b>Dance Type :</b></label></td>
+                <td>
+                    <input type="checkbox" id="danceType" name="danceType" value="danceType">Zapin &nbsp;
+                    <input type="checkbox" id="danceType" name="danceType" value="danceType">Joget &nbsp;
+                    <input type="checkbox" id="danceType" name="danceType" value="danceType">Inang &nbsp;
+                    <input type="checkbox" id="danceType" name="danceType" value="danceType">Lion Dance
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="level"><b>Competition Level :</b></label></td>
+                <td>
+                    <select name="level" id="level">
+                        <option value="" disabled selected>Select level</option>
+                        <option value="1">State Level</option>
+                        <option value="2">National Level</option>
+                        <option value="3">State International Level</option> 
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="nationality"><b>Nationality :</b></label></td>
+                <td>
+                    <select name="nationality" id="nationality">
+                        <option value="" disabled selected>Choose nationality</option>
+                        <option value="1">Australian</option>
+                        <option value="2">Frech Citizen</option>
+                        <option value="3">Indian</option>    
+                        <option value="4">Korean</option> 
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="password"><b>Password :</b></label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Register Me">&nbsp;&nbsp;
+        <input type="reset" value="Cancel">
+    </form> 
+</body>
+</html>

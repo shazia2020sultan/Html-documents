@@ -1,0 +1,55 @@
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+
+            <tr>
+                 <td><label for="name">Name :</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="sex">Sex :</label></td>
+                <td><input type="radio">Male <br><input type="radio">Female</td>
+            </tr>
+
+            <tr>
+                <td><label for="eyeColor">Eye Color :</label></td>
+                <td>
+                    <select name="eyeColor" id="eyeColor">
+                        <option value="" disabled selected>Choose Color</option>
+                        <option value="1">Blue</option>    
+                        <option value="2">Gray</option> 
+                        <option value="3">Green</option> 
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="check">Check all that apply :</label></td>
+                <td>
+                    <input type="checkbox" id="check" name="check" value="check">Over 6 feet tall <br>
+                    <input type="checkbox" id="check" name="check" value="check">Over 200 pounds
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Describe your athletic ability : <br>
+                    <textarea name="text" id="decribeAbility" cols="40" rows="3"></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    &nbsp;&nbsp;&nbsp;<input type="submit" value="Register Me">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
